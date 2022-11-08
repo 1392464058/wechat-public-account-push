@@ -19,22 +19,22 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '十九',
+      name: '浩宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oy5cI6JHqhvPOvN-l8-1K0cA4ch8',
+      id: 'oy5cI6Dv1ACZmT2Ub83CVit4QdKA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0AQQCqVFRgEiQzxvrPCQ6buJr4qwmCaD1-RgOHlbj0o',
+      useTemplateId: 'mcXKUkQ6MqmVAeDT9w1pWayOhVe1i2JRX8C4l_7DR-g',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-26',
+      horoscopeDate: '3-22',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '十九', year: '2000', date: '11-26',
+          type: '*生日', name: '浩宝', year: '2001', date: '3-22',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
        
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '10-31',
+          type: '节日', name: '相识纪念日', year: '2017', date: '2-13',
         },
       ],
      
@@ -49,7 +49,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oy5cI6JHqhvPOvN-l8-1K0cA4ch8',
+      id: 'oy5cI6Dv1ACZmT2Ub83CVit4QdKA',
     }
   ],
 
